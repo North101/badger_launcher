@@ -37,6 +37,14 @@ class Mahjong(MenuItem):
     mahjong2040.client.start()
 
 
+class Blaseball(MenuItem):
+  name = 'Blaseball'
+
+  def __call__(self):
+    import blaseball2040
+    blaseball2040.start()
+
+
 class MyApp(App):
   def __init__(self):
     super().__init__()
@@ -46,6 +54,7 @@ class MyApp(App):
         Netrunner(),
         LordOfTheRignsLCG(),
         Mahjong(),
+        Blaseball(),
     ]
     self.child = ListWidget(
         item_height=21,
