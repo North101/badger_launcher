@@ -1,0 +1,14 @@
+{
+    "version": "0.1",
+    "urls": [
+        ["badger_launcher/__init__.py", "github:North101/badger_launcher/badger_launcher/__init__.py"],
+        ["badger_launcher/__main__.py", "github:North101/badger_launcher/badger_launcher/__main__.py"],
+        ["badger_launcher/app.py", "github:North101/badger_launcher/badger_launcher/app.py"],
+        ["badger_launcher/menu_item.py", "github:North101/badger_launcher/badger_launcher/menu_item.py"]
+    ],
+    "deps": [
+        ["github:North101/badger_ui", "master"],
+        ["github:North101/blaseball2040", "master"],
+        ["github:North101/mahjong2040", "master"]
+    ]
+}
