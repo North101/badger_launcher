@@ -1,0 +1,7 @@
+[
+    {
+        "name": "My Menu Item",
+        "module": "my_module",
+        "callable": "start"
+    }
+]
