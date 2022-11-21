@@ -11,7 +11,7 @@ class MenuItem:
   args: []
   kwargs: {}
 
-  def __init__(self, name, module, callable, args=None, kwargs=None):
+  def __init__(self, name, module, callable=None, args=None, kwargs=None):
     self.name = name
     self.module = module
     self.callable = callable
@@ -20,8 +20,9 @@ class MenuItem:
 
   def __call__(self):
     module = __import__(self.module)
-    call = getattr(module, self.callable)
-    call(*self.args, **self.kwargs)
+    if self.callable:
+      call = getattr(module, self.callable)
+      call(*self.args, **self.kwargs)
 
 
 class MenuItemWidget(Widget):
