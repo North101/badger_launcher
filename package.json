@@ -8,7 +8,9 @@
     ],
     "deps": [
         ["github:North101/badger_ui", "master"],
+        ["github:North101/ahlcg2040", "master"],
         ["github:North101/blaseball2040", "master"],
-        ["github:North101/mahjong2040", "master"]
+        ["github:North101/mahjong2040", "master"],
+        ["github:North101/lotrlcg2040", "master"]
     ]
 }
