@@ -1,5 +1,5 @@
 import json
-import badger2040
+
 from badger_ui.base import App
 from badger_ui.list import ListWidget
 
