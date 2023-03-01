@@ -1,22 +1,23 @@
 {
+  "name": "badger_launcher",
   "version": "0.1",
   "repository": "github:North101/badger_launcher",
   "urls": [
     [
       "badger_launcher/menu_item.py",
-      "github:North101/badger_launcher/src/menu_item.py"
+      "github:North101/badger_launcher/badger_launcher/menu_item.py"
     ],
     [
       "badger_launcher/__init__.py",
-      "github:North101/badger_launcher/src/__init__.py"
+      "github:North101/badger_launcher/badger_launcher/__init__.py"
     ],
     [
       "badger_launcher/app.py",
-      "github:North101/badger_launcher/src/app.py"
+      "github:North101/badger_launcher/badger_launcher/app.py"
     ],
     [
       "badger_launcher/__main__.py",
-      "github:North101/badger_launcher/src/__main__.py"
+      "github:North101/badger_launcher/badger_launcher/__main__.py"
     ]
   ],
   "deps": [
